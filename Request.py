@@ -18,7 +18,7 @@ for i in range(28):
     print(r)
 
     root_json= r.json() 
-    # " " in python means dictionary translate the response data into python readable format
+    # "json" in python means dictionary translate the response data into python readable format
 
     for data in root_json['data']:
     #'data' means the file "liveEvents?limit=24&page=0" contain the dictionary "data" and that contain the data we want here
